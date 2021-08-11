@@ -22,10 +22,12 @@ def trrust_genes(TFs, weighted=False, silent=False, top_n_genes=None):
 
     """
     # Load TRRUST
+    pw = __file__.split('/src')[0]
+
     if not silent:
         print('loading TRRUST')
     TRRUST = pd.read_csv(
-        '../data/TRRUST/trrust_rawdata.human.tsv',
+        pw + '/data/TRRUST/trrust_rawdata.human.tsv',
         sep='\t',
         header=None,
         )
@@ -130,9 +132,10 @@ def STRING_ppi(TFs, FDR=0.95, Npermut=100, silent=False, top_n_genes=None):
     None.
 
     """
+    pw = __file__.split('/src')[0]
     if not silent:
         print('loading STRING PPI...')
-    ppi = pd.read_pickle('../data/STRINGdb/string_links.p')
+    ppi = pd.read_pickle(pw + '/data/string_links.p')
     if not silent:
         print('Done')
 
