@@ -128,7 +128,7 @@ class TFTenricher:
 
         """
 
-
+        self.db = db
         if multiple_testing_correction == 'BenjaminiHochberg': # use this unless otherwise told
             self.multtest_fun = stat_utils.benjaminihochberg_correction
         elif multiple_testing_correction == 'Bonferroni':
