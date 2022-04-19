@@ -16,7 +16,7 @@ def write_citations(used_dbs):
     cits = load_citations()
     
     print('Thank you for using TFTenricher. To support our work, please cite:\n')
-    print('No citable material yet, all your base are belong to us')
+    print('Magnusson, R., Lubovac-Pilav, Z. TFTenricher: a python toolbox for annotation enrichment analysis of transcription factor target genes. BMC Bioinformatics 22, 440 (2021). https://doi.org/10.1186/s12859-021-04357-4')
     
     print('\n\nIn addition, the following third-party material should be referenced:')
     for db in used_dbs:
