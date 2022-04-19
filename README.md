@@ -98,5 +98,5 @@ Current Members in the Project
 
 References & how to cite
 ======================
-Add here
+Magnusson, R., Lubovac-Pilav, Z. TFTenricher: a python toolbox for annotation enrichment analysis of transcription factor target genes. BMC Bioinformatics 22, 440 (2021). https://doi.org/10.1186/s12859-021-04357-4
 
