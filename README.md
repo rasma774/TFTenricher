@@ -44,7 +44,7 @@ Here are the basic usages of the TFTenricher. A more comprehensive example can e
 In python:
 ```python
 # Comment
->>> from TFTenrich import TFTenricher
+>>> from TFTenricher import TFTenricher
 enr = TFTenricher(list_of_tfs)
 
 # to print the inferred target genes
